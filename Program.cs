@@ -7,10 +7,16 @@
     2. Cette méthode doit afficher dans la console : "Bienvenue dans votre aventure, héros !".
     3. Appelez cette méthode depuis la méthode Main().
 */
+
 class Program
 {
     static void Main(string[] args)
     {
-        
+        AfficherBienvenue();
+    }
+
+    static void AfficherBienvenue()
+    {
+        Console.WriteLine("Bienvenue dans votre aventure, héros !");
     }
 }
